@@ -1,0 +1,54 @@
+body {
+    background: url(ombres\ et\ lumieres.jpg) no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding-top: 70px;
+    height: 100vh;
+}
+
+#carouselExemple {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 0px;
+    
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+header{
+    padding-bottom: 15px;
+    font-size: 25px;
+    color: rgb(5, 255, 5);
+    text-align: center;
+    font-family: Georgia;
+}
+
+
+
+@media only screen and (min-width: 770px){
+
+  
+
+    body {
+    background: url(ombres\ et\ lumieres.jpg) no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 50px 50px;
+    height: 100vh;
+          }
+
+
+#carouselExemple {
+    width: 50%;
+ }
+
+
+header{
+    font-size: 30px;
+    color: rgb(5, 255, 5);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+}
